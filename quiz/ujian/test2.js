@@ -4,8 +4,7 @@
 
 function balikKata(kata) {
     let i ='';
-    let y = kata.length-1
-    for(y>=0;y--;)
+    for(let y = kata.length-1;y>=0;y--)
         i+=kata[y];
     return i
     // you can only write your code here!
